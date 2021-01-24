@@ -54,7 +54,7 @@
 	<![CDATA[
 		update person
 		set hp = #{hp}, 
-		where person_id =#{personId]
+		where person_id =#{personId}
 	]]>
 	</select>
 	
