@@ -53,7 +53,7 @@
 	<select id="selectUpdate" parameterType= "int" resultType ="com.javaex.vo.PersonVo">
 	<![CDATA[
 		update person
-		set hp = #{hp}'', 
+		set hp = #{hp}, 
 		where person_id =#{personId]
 	]]>
 	</select>
